@@ -1,3 +1,31 @@
-body{
+/* body{
     background-color: blue;
+} */
+
+*{
+background-color: rgb(3, 4, 43);
+}
+
+.big-map {
+    background-color: aqua;
+    height: 80vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.big-map img {
+    height: 100%;
+    width: 100%;
+    opacity: 90%;
+}
+
+h1{
+font-weight: 100;
+    font-family:fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
