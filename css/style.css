@@ -3,8 +3,22 @@
 } */
 
 *{
-background-color: rgb(3, 4, 43);
+background-color: rgb(211, 212, 241);
 }
+
+h1{
+    font-weight: 100;
+        font-family:fantasy;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+.caja-mapa {
+    height: 80vh;
+ }
+
 
 .big-map {
     background-color: aqua;
@@ -18,14 +32,13 @@ background-color: rgb(3, 4, 43);
 .big-map img {
     height: 100%;
     width: 100%;
-    opacity: 90%;
+    opacity: 80%;
 }
 
-h1{
-font-weight: 100;
-    font-family:fantasy;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+i.fa-solid.fa-location-pin.fa-beat-fade{
+    animation-iteration-count: 0;
+    /* width: 500px;
+    height:500px; */
 }
+
+
