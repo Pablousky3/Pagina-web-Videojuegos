@@ -4,17 +4,17 @@ body {
     padding: 0;
 }
 
-/* Cabezera de los botones  */
+/* Cabezera de los botones ---------------------------------------------------------------------------------------------- */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #8d0090;
-    color: rgb(149, 179, 0);
+    background-color: #900000;
     text-align: center;
+    z-index: 1000;
 }
 
-/* Botones superiores */
+/* Botones superiores ----------------------------------------------------------------------------------------------------*/
 nav ul {
     list-style: none;
     margin: 10px;
@@ -28,14 +28,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(242, 255, 0);
     text-decoration: none;
 }
 
-/* Pagina portada */
+/* Pagina portada ------------------------------------------------------------------------------------------------------*/
+
 #streetfigther {
     height: 100vh;
-    background: url('images\Fondo.jpg');
+    background: url('Fondo.jpg')no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,24 +48,71 @@ nav ul li a {
 }
 
 .Logo{
-
-    width: 900px; 
+    width: 80%; 
     height: auto; 
+    animation: movimientoLogo 2s infinite;
 }
 
-/* Pagina descripcion */
+/* Pagina descripcion -----------------------------------------------------------------------------------------------*/
+
 .Descrpcion-seccion {
-    background-color: #007BFF;
+    background: url('Fondo2.jpg')no-repeat center center/cover;
     color: white;
     padding: 50px 20px;
+    align-items: center;
+}
+
+.video-descripcion {
+    width: 60%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    border: 8px solid #393939 ; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+    position: relative;
 }
 
 .carousel {
     display: flex;
-    overflow: hidden;
+    transition: transform 0.5s ease;
 }
 
 .carousel-item {
     min-width: 100%;
-    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    color: #fff; 
+}
+
+
+/* Keyframes ----------------------------------------------------------------------------------------------------------*/
+
+@keyframes movimientoLogo {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }

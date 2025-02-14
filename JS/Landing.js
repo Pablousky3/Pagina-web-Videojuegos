@@ -4,10 +4,10 @@ $(document).ready(function() {
     const itemCount = items.length;
 
     function showNextItem() {
-        items.eq(currentIndex).css('transform', 'translateX(-100%)');
-        currentIndex = (currentIndex + 1) % itemCount;
-        items.eq(currentIndex).css('transform', 'translateX(0)');
+        const nextIndex = (currentIndex + 1) % itemCount;
+        $('.carousel').css('transform', `translateX(-${nextIndex * 100}%)`);
+        currentIndex = nextIndex;
     }
 
-    setInterval(showNextItem, 3000);
+    setInterval(showNextItem, 7000);
 });
