@@ -4,6 +4,7 @@ body {
     padding: 0;
     background: url('Fondo.jpg')no-repeat center center/cover;
     background-attachment: fixed;
+    
 }
 
 /* Cabezera de los botones ---------------------------------------------------------------------------------------------- */
@@ -32,6 +33,7 @@ nav ul li a {
     font-size: large;
     color: rgb(242, 255, 0);
     text-decoration: none;
+    font-family: 'Street', sans-serif;
 }
 
 /* Pagina portada ------------------------------------------------------------------------------------------------------*/
@@ -90,6 +92,7 @@ nav ul li a {
 }
 
 .carousel {
+    font-family: 'Street', sans-serif;
     display: flex;
     transition: transform 0.5s ease;
     transform: translateX(-100%); /* Empieza con la segunda imagen centrada */
@@ -147,6 +150,7 @@ nav ul li a {
 }
 
 .try-now {
+    font-family: 'Street', sans-serif;
     background-color:  #c30101;
     color: rgb(242, 255, 0);
     border: 2px solid rgb(0, 0, 0);
@@ -240,3 +244,12 @@ nav ul li a {
   .seccion-animada.visible {
     animation: entradaDerecha 2s ease-out forwards;
   }
+
+  @font-face {
+    font-family: 'Street';
+    src: url('Street.ttf') format('woff2'),
+         url('Street.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
