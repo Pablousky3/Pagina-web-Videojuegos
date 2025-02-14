@@ -47,3 +47,18 @@ $(document).ready(function() {
 
     setInterval(showNextItem, 6000);
 });
+
+document.addEventListener('scroll', function() {
+    const secciones = document.querySelectorAll('.seccion-animada');
+    const alturaPantalla = window.innerHeight;
+  
+    secciones.forEach(function(seccion) {
+      const posicion = seccion.getBoundingClientRect().top;
+  
+      if (posicion < alturaPantalla) {
+        seccion.classList.add('visible');
+      }
+    });
+  });
+
+  
