@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 40px;
+    margin: 0 4%;
 }
 
 nav ul li a {
@@ -72,6 +72,12 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
+.texto{
+    background-color:#393939  ;
+    color: aliceblue;
+    border: 4px solid #c30101 ;
+    border-radius: 15px;
+}
 
 .carousel-container {
     display: flex;
