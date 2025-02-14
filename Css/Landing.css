@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: url('Fondo.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
 }
 
 /* Cabezera de los botones ---------------------------------------------------------------------------------------------- */
@@ -36,7 +38,6 @@ nav ul li a {
 
 #streetfigther {
     height: 100vh;
-    background: url('Fondo.jpg')no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +57,6 @@ nav ul li a {
 /* Pagina descripcion -----------------------------------------------------------------------------------------------*/
 
 .Descrpcion-seccion {
-    background: url('Fondo2.jpg')no-repeat center center/cover;
     color: white;
     padding: 50px 20px;
     align-items: center;
