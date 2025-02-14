@@ -143,12 +143,26 @@
 
     .FotoCanada img {
 
-        /* display: none; */
         opacity: 0;
         background-color: transparent;
         width: 20%;
         height: auto;
-        position:absolute;
+        position: absolute;
         left: 25vw;
-        top: 30vh;    
+        top: 30vh;   
+        border: 15px solid;
+        border-color: rgb(69, 191, 248); 
+        border-bottom: 100px solid;
+        border-bottom-color:  rgb(69, 191, 248);
+        border-radius: 15px;
+    }
+
+    .TextoCanada{
+        opacity: 0;
+        position:absolute;
+        left: 26.25vw;
+        bottom:25vh ;
+        width: 20%;
+        background-color: transparent;
+
     }
