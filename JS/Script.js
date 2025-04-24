@@ -160,7 +160,15 @@ let hoverPinEspaña = $(".PinEspana.fa-solid.fa-location-pin.fa-beat-fade");
 let hoverPinInglaterra = $(".PinInglaterra.fa-solid.fa-location-pin.fa-beat-fade");
 let hoverPinArgentina = $(".PinInglaterra.fa-solid.fa-location-pin.fa-beat-fade");
 
+$(".pin").mouseenter(function(){
+    console.log($(this).data("country"));
+    let country = $(this).data("country");
+    $(".Foto"+ country +" img").css("opacity", "100%")
+})
+
+
 $(".PinCanada.fa-solid.fa-location-pin.fa-beat-fade").mouseenter(function(){
+    this
     $(".PinCanada.fa-solid.fa-location-pin.fa-beat-fade").css("animation-iteration-count", "infinite")
     $(".FotoCanada img").css("opacity", "100%")
     $(".TextoCanada").css("opacity", "100%")
