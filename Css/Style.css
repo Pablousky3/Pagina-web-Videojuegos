@@ -475,6 +475,10 @@ nav ul li a {
         background-color: rgb(211, 212, 241);
     } */
     
+
+    .caja-foto{
+        
+    }
     i.PinCanada.fa-solid.fa-location-pin.fa-beat-fade{
         background-color: transparent;
         animation-iteration-count:0;
@@ -494,11 +498,6 @@ nav ul li a {
         position: absolute;
         left: 22vw;
         top: 30vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 100px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoCanada{
@@ -530,11 +529,6 @@ nav ul li a {
         position: absolute;
         left: 33vw;
         top: 35vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 130px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoEstadosUnidos{
@@ -566,11 +560,6 @@ nav ul li a {
         position: absolute;
         left: 11vw;
         top: 48vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoBrasil{
@@ -603,11 +592,6 @@ nav ul li a {
         position: absolute;
         right: 23vw;
         top: 37vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoJapon{
@@ -641,11 +625,6 @@ nav ul li a {
         position: absolute;
         right: 20vw;
         top: 40vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoAustralia{
@@ -679,11 +658,6 @@ nav ul li a {
         position: absolute;
         right: 32vw;
         top: 30vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoChina{
@@ -717,11 +691,6 @@ nav ul li a {
         position: absolute;
         right: 29vw;
         top: 30vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     }
 
     .TextoEspana{
@@ -755,11 +724,6 @@ nav ul li a {
         position: absolute;
         right: 27vw;
         top: 20vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     } 
 
     .TextoInglaterra{
@@ -792,11 +756,6 @@ nav ul li a {
         position: absolute;
         left: 5vw;
         bottom: 15vh;   
-        border: 15px solid;
-        border-color: rgb(69, 191, 248); 
-        border-bottom: 115px solid;
-        border-bottom-color:  rgb(69, 191, 248);
-        border-radius: 15px;
     } 
 
     .TextoArgentina{
