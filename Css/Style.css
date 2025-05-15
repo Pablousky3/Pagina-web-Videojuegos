@@ -476,14 +476,106 @@ nav ul li a {
     } */
     
 
-    /* .caja-foto{
+     .cajafotoCanada{
         background-color: #000;
-        position: absolute;
+        position: relative;
+        top: 20em;;
+        bottom:40em;
+        left:20em;
+        right: 40em;
+        height: 50em;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+     .cajafotoEstadosUnidos{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
         height: 50px;
         width: 80px;
-        opacity: 0; 
+        opacity: 0.8;   
+    } 
+     .cajafotoBrasil{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoJapon{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoAustralia{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoChina{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoEspana{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoInglaterra{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
+    .cajafotoArgentina{
+        background-color: #000;
+        position: relative;
+        top:;
+        bottom:;
+        left:;
+        right:;
+        height: 50px;
+        width: 80px;
+        opacity: 0.8;   
+    } 
 
-    } */
     i.PinCanada.fa-solid.fa-location-pin.fa-beat-fade{
         background-color: transparent;
         animation-iteration-count:0;
@@ -501,15 +593,15 @@ nav ul li a {
         width: 20%;
         height: auto;
         position: absolute;
-        left: 22vw;
-        top: 30vh;   
+        /* left: 22vw;
+        top: 30vh;    */
     }
 
     .TextoCanada{
         opacity: 0;
         position:absolute;
-        left: 24vw;
-        bottom:25vh ;
+        /* left: 24vw;
+        bottom:25vh ; */
         width: 20%;
         background-color: transparent;
 
@@ -532,15 +624,15 @@ nav ul li a {
         width: 20%;
         height: auto;
         position: absolute;
-        left: 33vw;
-        top: 35vh;   
+        /* left: 33vw;
+        top: 35vh;    */
     }
 
     .TextoEstadosUnidos{
         opacity: 0;
         position:absolute;
-        left: 34.5vw;
-        bottom:12.5vh ;
+        /* left: 34.5vw;
+        bottom:12.5vh ; */
         width: 20%;
         background-color: transparent;
 
@@ -563,8 +655,8 @@ nav ul li a {
         width: 20%;
         height: auto;
         position: absolute;
-        left: 11vw;
-        top: 48vh;   
+        /* left: 11vw;
+        top: 48vh;    */
     }
 
     .TextoBrasil{
