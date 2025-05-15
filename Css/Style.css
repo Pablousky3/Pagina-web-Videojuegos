@@ -476,9 +476,14 @@ nav ul li a {
     } */
     
 
-    .caja-foto{
-        
-    }
+    /* .caja-foto{
+        background-color: #000;
+        position: absolute;
+        height: 50px;
+        width: 80px;
+        opacity: 0; 
+
+    } */
     i.PinCanada.fa-solid.fa-location-pin.fa-beat-fade{
         background-color: transparent;
         animation-iteration-count:0;

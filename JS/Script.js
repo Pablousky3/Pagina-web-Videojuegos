@@ -155,6 +155,7 @@ $(".pin").mouseenter(function(){
     $(".Pin"+ country +".fa-solid.fa-location-pin.fa-beat-fade").css("animation-iteration-count", "infinite")
     $(".Foto"+ country +" img").css("opacity", "100%")
     $(".Texto"+ country).css("opacity", "100%")
+    $("caja-foto").css("opacity", "100")
 })
 
 $(".pin").mouseleave(function(){
