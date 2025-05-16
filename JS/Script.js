@@ -150,7 +150,7 @@ document.addEventListener('scroll', function() {
 //   selector de mapas 
 
 $(".pin").mouseenter(function(){
-    console.log($(this).data("country"));
+    // console.log($(this).data("country"));
     let country = $(this).data("country");
     $(".Pin"+ country +".fa-solid.fa-location-pin.fa-beat-fade").css("animation-iteration-count", "infinite")
     $(".Foto"+ country +" img").css("opacity", "100%")
@@ -159,7 +159,7 @@ $(".pin").mouseenter(function(){
 })
 
 $(".pin").mouseleave(function(){
-    console.log($(this).data("country"));
+    // console.log($(this).data("country"));
     let country = $(this).data("country");
     $(".Pin"+ country +".fa-solid.fa-location-pin.fa-beat-fade").css("animation-iteration-count", "0")
     $(".Foto"+ country +" img").css("opacity", "0%")
