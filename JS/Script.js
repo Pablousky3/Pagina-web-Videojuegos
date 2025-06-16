@@ -6,19 +6,27 @@
 let player1Selected = false;
 let player2Selected = false;
 
+
+
 function selectCharacter(character) {
     if (!player1Selected) {
         updatePlayerStats('player1', character);
         player1Selected = true;
+        $("#btn-x1").css("opacity", "100%")
     } else if (!player2Selected) {
         updatePlayerStats('player2', character);
         player2Selected = true;
+        $("#btn-x2").css("opacity", "100%")
     }
 
     if (player1Selected && player2Selected) {
         document.getElementById('ready-button').disabled = false;
     }
 }
+
+// $('.btn-x1').on('click', );
+// $('.carousel-button.prev').on('click', showPrevItem);
+
 
 function updatePlayerStats(player, character) {
     const playerImg = document.getElementById(`${player}-img`);
