@@ -138,7 +138,7 @@
   border-radius: 5px;
   cursor: pointer;
   bottom: 20vh;
-  right: 95vh;
+  right: 60vh;
   position: absolute;
 }
 #ready-button:disabled {
@@ -170,28 +170,32 @@
 }
 
 #boton-x1{
-     font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
   font-weight: bold;
   background-color: #c30101;
   color: rgb(242, 255, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* bottom: -12vh;
-  right: -68vh; */
+  bottom: 15vh;
+  left: 14vw;
   position: absolute;
   opacity: 0;
 }
 #boton-x2{
-     font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
   font-weight: bold;
   background-color: #c30101;
   color: rgb(242, 255, 0);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* bottom: -12vh;
-  right: -68vh; */
+  bottom: 15vh;
+  right: 14vh;
   position: absolute;
   opacity: 0;
 }
@@ -535,26 +539,26 @@ nav ul li a {
 }
 
 /* Posicionamiento pines */
-.PinCanada { right: 65vw; top: 35vh; }
-.PinEstadosUnidos { right: 55vw; top: 40vh; }
-.PinBrasil { right: 50vw; top: 59vh; }
-.PinJapon { right: 18vw; top: 42vh; }
-.PinAustralia { right: 40vw; bottom: 32vh; }
-.PinChina { right: 25vw; top: 43vh; }
-.PinEspana { right: 65vw; top: 39vh; }
-.PinInglaterra { right: 51.5vw; top: 35.5vh; }
-.PinArgentina { left: 31vw; bottom: 30vh; }
+.PinCanada { right: 78vw; top: 25vh; }
+.PinEstadosUnidos { right: 69vw; top: 30vh; }
+.PinBrasil { right: 60vw; top: 55vh; }
+.PinJapon { right: 15.5vw; top: 29vh; }
+.PinAustralia { right: 20vw; bottom: 18vh; }
+.PinChina { right: 25vw; top: 30vh; }
+.PinEspana { right: 51vw; top: 27vh; }
+.PinInglaterra { right: 50.5vw; top: 21.5vh; }
+.PinArgentina { left: 30vw; bottom: 19vh; }
 
 /* Posicionamiento cajas */
-.cajafotoCanada { right: 60vw; bottom: 30vh; }
-.cajafotoEstadosUnidos { right: 45vw; bottom: 35vh; }
-.cajafotoBrasil { right: 50vw; bottom: 15vh; }
-.cajafotoJapon { right: 10vw; bottom: 35vh; }
-.cajafotoAustralia { right: 8vw; bottom: 10vh; }
-.cajafotoChina { right: 20vw; bottom: 40vh; }
-.cajafotoEspana { right: 29vw; bottom: 18vh; }
-.cajafotoInglaterra { right: 35vw; bottom: 25vh; }
-.cajafotoArgentina { right: 40vw; bottom: 10vh; }
+.cajafotoCanada { right: 40vw; bottom: 30vh; }
+.cajafotoEstadosUnidos { right: 30vw; bottom: 25vh; }
+.cajafotoBrasil { right: 25vw; bottom: 10vh; }
+.cajafotoJapon { right: 20vw; bottom: 30vh; }
+.cajafotoAustralia { right: 25vw; bottom: 10vh; }
+.cajafotoChina { right: 30vw; bottom: 30vh; }
+.cajafotoEspana { right: 15vw; bottom: 25vh; }
+.cajafotoInglaterra { right: 55vw; bottom: 25vh; }
+.cajafotoArgentina { right: 32vw; bottom: 10vh; }
 
 /* Efectos hover */
 .PinCanada:hover ~ .cajafotoCanada,
