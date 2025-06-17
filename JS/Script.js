@@ -12,9 +12,11 @@ function selectCharacter(character) {
     if (!player1Selected) {
         updatePlayerStats('player1', character);
         player1Selected = true;
+        $("#boton-x1").css("opacity", "100%");
     } else if (!player2Selected) {
         updatePlayerStats('player2', character);
         player2Selected = true;
+        $("#boton-x2").css("opacity", "100%");
     }
 
     if (player1Selected && player2Selected) {
@@ -22,14 +24,35 @@ function selectCharacter(character) {
     }
 }
 
-// $('.btn-x1').on('click', );
-// $('.carousel-button.prev').on('click', showPrevItem);
+
+function deselectCharacter(player) {
+    document.getElementById(`${player}-img`).src = 'images/Personajes/vacio.png';
+    document.getElementById(`${player}-info`).innerHTML = '';
+    document.getElementById(`boton-${player === 'player1' ? 'x1' : 'x2'}`).style.opacity = "0";
+
+    if (player === 'player1') {
+        player1Selected = false;
+    } else {
+        player2Selected = false;
+    }
+
+    toggleReady();
+}
+function toggleReady() {
+    document.getElementById('ready-button').disabled = !(player1Selected && player2Selected);
+}
+
+
+
 
 
 function updatePlayerStats(player, character) {
     const playerImg = document.getElementById(`${player}-img`);
     const playerInfo = document.getElementById(`${player}-info`);
     let characterName, characterImage, characterStats;
+    
+    
+
 
     switch(character) {
         case 'james':
@@ -72,6 +95,10 @@ function updatePlayerStats(player, character) {
             characterImage = "images/Personajes/zangief.png";
             characterStats = { Fuerza: 55, Velocidad: 85, Vida: 75 };
             break;
+        case 'null':
+            characterName ="";
+            characterImage="";
+            characterStats="";
         
     }
 

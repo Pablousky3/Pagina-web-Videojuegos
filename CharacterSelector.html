@@ -4,7 +4,7 @@
     <title>Character Selection MOO ICT</title>
     <link rel="stylesheet" type="text/css" href="Css/Style.css">
 </head>
-<body >
+<body class="CharacterSelector">
     <div id="container">
         <div id="player1">
             <h2>Player 1</h2>
@@ -13,10 +13,8 @@
             </div>
             <div id="player1-info"></div>
              <div id="boton-x1">
-                    <a >
-                        <button onclick=btn-x1> X </button>
-                    </a>
-                </div>
+                    <button onclick="deselectCharacter('player1')"> X </button>
+            </div>
         </div>
         <div id="character-selection">
             <h1>CHARACTER SELECT</h1>
@@ -38,21 +36,21 @@
                 </div>
                 <div id="player2-info"></div>
                  <div id="boton-x2">
-                    <a >
-                        <button onclick=btn-x2> X </button>
-                    </a>
+                        <!-- <button onclick=btn-x2> X </button> -->
+                        <button onclick="deselectCharacter('player2')"> X </button>
                 </div>
                 
             </div>
     
         </div>
-        
-    </div>
-       <div id="inf">
+        <div id="inf">
         <a href="MapSelector.html" class="try-now-link">
-            <button id="ready-button">READY</button>
+            <button id="ready-button" disabled>READY</button>
         </a>
     </div>
+    </div>
+       
+
    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
